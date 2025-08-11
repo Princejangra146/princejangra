@@ -8,7 +8,7 @@ import { Code, Palette, Smartphone, Zap } from "lucide-react"
 const features = [
   {
     icon: Code,
-    title: "FullStack",
+    title: "Frontend",
     description: "Building modern web applications with React, Next.js, and TypeScript",
   },
   {
@@ -73,7 +73,7 @@ export default function About() {
           >
             <h3 className="text-lg sm:text-2xl font-bold text-gray-900 dark:text-gray-100">My Journey</h3>
             <p className="text-gray-600 dark:text-gray-400 leading-relaxed text-sm sm:text-base">
-            I’m a passionate web developer from India who loves solving real-world problems through code. As a fresher, I’ve been actively building projects to strengthen my skills and explore the latest technologies.
+            I’m a passionate Frontend developer from India who loves solving real-world problems through code. As a fresher, I’ve been actively building projects to strengthen my skills and explore the latest technologies.
             </p>
             <p className="text-gray-600 dark:text-gray-400 leading-relaxed text-sm sm:text-base">
               When I'm not coding, you can find me exploring new technologies, contributing to open source, or sharing

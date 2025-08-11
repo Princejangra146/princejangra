@@ -6,11 +6,11 @@ import { useRef } from "react"
 
 const skillCategories = [
   {
-    title: "FullStack",
+    title: "Frontend",
     skills: [
       { name: "React", level: 95 },
-      { name: "Next.js", level: 90 },
-      { name: "Express", level: 88 },
+      { name: "Next.js", level: 70 },
+      { name: "HTML & CSS", level: 95 },
       { name: "Tailwind CSS", level: 92 },
       { name: "JavaScript", level: 94 },
     ],
@@ -18,7 +18,7 @@ const skillCategories = [
   {
     title: "Design",
     skills: [
-      { name: "Figma", level: 85 },
+      { name: "Figma", level: 95 },
       { name: "Adobe XD", level: 80 },
       { name: "Photoshop", level: 75 },
       { name: "UI/UX Design", level: 88 },

@@ -143,7 +143,7 @@ export default function Contact() {
           className="text-center mt-16 pt-8 border-t border-gray-200 dark:border-gray-700"
         >
           <p className="text-gray-500 dark:text-gray-400">
-            © 2025 Prince Jangra. All rights reserved. Built with Next.js and Tailwind CSS.
+            © 2025 Prince Jangra. All rights reserved. Built with React and Tailwind CSS.
           </p>
         </motion.div>
       </div>
