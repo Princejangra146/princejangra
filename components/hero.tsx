@@ -4,6 +4,7 @@ import { motion } from "framer-motion"
 import { ArrowRight, Download, Eye } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Image from "next/image"
+import Link from "next/link"
 
 export default function Hero() {
   const scrollToContact = () => {
@@ -29,13 +30,15 @@ export default function Hero() {
             className="mb-8"
           >
             <div className="w-32 h-32 mx-auto rounded-full overflow-hidden bg-gray-200 dark:bg-gray-700 border-4 border-white dark:border-gray-800 shadow-lg">
-              <Image
-                src="/main.jpg"
-                alt="Prince Jangra"
-                width={128}
-                height={128}
-                className="w-full h-full object-cover"
-              />
+              <Link href="/officaldashboard">
+                <Image
+                  src="/main.jpg"
+                  alt="Prince Jangra"
+                  width={128}
+                  height={128}
+                  className="w-full h-full object-cover cursor-pointer hover:opacity-80 transition-opacity duration-200"
+                />
+              </Link>
             </div>
           </motion.div>
 
@@ -56,7 +59,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}
           >
-            Full stack web developer
+            Frontend developer
             <br />
             based in Delhi.
           </motion.h1>
@@ -68,7 +71,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.8 }}
           >
-           I'm a full stack web developer from India, with a strong interest in building dynamic and user-focused web applications.
+           I'm a Frontend developer from India, with a strong interest in building dynamic and user-focused web applications.
           </motion.p>
 
           {/* Buttons */}
@@ -91,9 +94,9 @@ export default function Hero() {
               size="lg"
               className="border-2 border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 px-8 py-4 rounded-full font-medium text-lg transition-all duration-300 bg-transparent"
             >
-              <a href="/PJ%20RESUME.pdf" target="_blank" rel="noopener noreferrer">
-                my resume <Download size={20} className="ml-2" />
-              </a>
+             <a href="/PJ%20RESUME%20(2).pdf" target="_blank" rel="noopener noreferrer">
+  my resume <Download size={20} className="ml-2" />
+</a>
             </Button>
           </motion.div>
         </motion.div>
