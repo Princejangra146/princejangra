@@ -52,10 +52,10 @@ const figmaProjects = [
     category: "UI/UX Design"
   },
   {
-    title: "Currvtech Landing Page",
-    description: " complete UI/UX design system for a modern landing page with micro-interactions and user flows.",
-    image: "/Frame 1.png",
-    figma: "https://www.figma.com/proto/uVBVU3Cl8yQFYVcx2jeLeD/curvvtech?node-id=3-5&starting-point-node-id=3%3A5",
+    title:"Quick-Show Web Design",
+    description: " complete UI/UX design system for a modern Movie Ticket Booking with micro-interactions and user flows.",
+    image: "/bookmyshow.jpg",
+    figma: "https://www.figma.com/proto/HcWA8qVtgHAnCHdAnbsfbN/Untitled?node-id=0-1&p=f&t=CiYP2cEkL1J6Wext-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=0%3A89",
     category: "Landing Page"
   },
   {
