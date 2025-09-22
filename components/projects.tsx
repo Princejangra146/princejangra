@@ -40,6 +40,16 @@ const projects = [
     github: "https://github.com/Arindamsharma12/Georilla",
     live: "https://georilla-vert.vercel.app/",
   },
+  {
+    title: "Nexus",
+   
+    description:
+      " Visually captivating website inspired by Zentry – blending scroll-triggered animations, geometric transitions, and immersive video storytelling to create a luxurious, modern experience.",
+    image: "/nexus.png",
+    technologies: ["React", "GSAP", "Framer Motion", "Tailwind"],
+    github: "https://github.com/Princejangra146/NexusPlay",
+    live: "https://nexus-play-ten.vercel.app/",
+  },
   
 ]
 
@@ -63,6 +73,20 @@ const figmaProjects = [
     description: "complete UI/UX design system for a modern web app with micro-interactions and user flows.",
     image: "/medical.png",
     figma: "https://www.figma.com/proto/pR4DDxvSVxX8pqwH1CnqZh/Untitled?node-id=2-1215&t=egkmzrdmBfXOViZ0-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
+    category: "Web Design"
+  },
+  {
+    title: "Hotel Landing Page",
+    description: "complete UI/UX design system for a modern  Hotel Booking landing page with micro-interactions and user flows.",
+    image: "/hotel.png",
+    figma: "https://www.figma.com/proto/zfSZiuubbPwMHB7AuzfV4Z/Hotel-Landing-Page?node-id=1-3&t=vm80lms9F7x5LnhL-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
+    category: "Web Design"
+  },
+  {
+    title: "ServiceHive Landing Page",
+    description: "complete UI/UX design system for a modern Tech Company landing page  with micro-interactions and user flows.",
+    image: "/service.png",
+    figma: "https://www.figma.com/proto/QtS2fvDpEqoLXTvYLo7bci/Service-Hive?node-id=43-4&t=hXaTf67eWxxXKqSw-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
     category: "Web Design"
   },
   
